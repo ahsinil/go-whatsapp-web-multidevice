@@ -219,6 +219,9 @@ To use environment variables:
 
 **Documentation:**
 
+- For complete feature catalog, see [Feature List Documentation](./docs/feature-list.md)
+- For practical endpoint-by-endpoint usage examples, see [API Usage Guide](./docs/api-usage.md)
+- For integrating this service with your own backend/CRM/automation stack, see [External App Integration Guide](./docs/integration-guide.md)
 - For detailed webhook payload schemas, security implementation, and integration examples, see [Webhook Payload Documentation](./docs/webhook-payload.md)
 - For comprehensive Chatwoot integration guide, see [Chatwoot Integration Documentation](./docs/chatwoot.md)
 
@@ -494,12 +497,14 @@ You can fork or edit this source code !
 
 - MCP server provides standardized tools for AI agents to interact with WhatsApp
 - Supports Server-Sent Events (SSE) transport
-- Available tools: `whatsapp_send_text`, `whatsapp_send_contact`, `whatsapp_send_link`, `whatsapp_send_location`
+- Includes tools for connection/session control, querying chats/contacts, sending messages/media, and group management
 - Compatible with MCP-enabled AI tools and agents
+- Check [API Usage Guide](./docs/api-usage.md) for capability overview
 
 ### HTTP REST API
 
 - Check [docs/openapi.yml](./docs/openapi.yaml) for detailed API specifications.
+- Check [API Usage Guide](./docs/api-usage.md) for practical usage examples by endpoint group.
 - Use [SwaggerEditor](https://editor.swagger.io) to visualize the API.
 - Generate HTTP clients using [openapi-generator](https://openapi-generator.tech/#try).
 
